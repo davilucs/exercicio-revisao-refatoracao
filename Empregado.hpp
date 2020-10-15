@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <string>
-const multHorasExtras = 2;
-const horasMaxDia = 8;
+const double multHorasExtras = 2;
+const double horasMaxDia = 8;
 class Empregado {
 	
   public:

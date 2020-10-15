@@ -2,8 +2,9 @@
 #include "Empregado.hpp"
 
 class Vendedor : public Empregado {
-const mesPorAno = 12;
+const double mesPorAno = 12;
   public:  
+	double _quotaMensalVendas;
 	double quotaTotalAnual() {
 	  return quotaMensalVendas * mesPorAno;
 	}

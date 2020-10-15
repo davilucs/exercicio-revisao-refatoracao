@@ -11,8 +11,7 @@ const double mesPorAno = 12;
 	}
 	double _quotaMensalVendas;
 	double quotaTotalAnual() {
-	  return quotaMensalVendas * mesPorAno;
-	}
-	
+	  	return quotaMensalVendas * mesPorAno;
+	}	
 };
 

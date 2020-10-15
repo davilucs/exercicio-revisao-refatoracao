@@ -9,11 +9,5 @@ class Engenheiro : public Empregado {
 			_projetos = projetos;
 		}
 		int _projetos;
-		printEngenheiro() {
-		  	std::cout << "Nome: " << this._nome << std::endl;
-  			std::cout << "Salario Mes: " << this._pagamentoMes(9.5) << std::endl;
-  			std::cout << "Projetos: " << this._projetos << std::endl;
-  			std::cout << std::endl;
-		}
 };
 

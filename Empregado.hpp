@@ -10,7 +10,6 @@ class Empregado {
   public:
     std::string _nome;
     double _salarioHora;  
-    double _quotaMensalVendas;
 	
     double pagamentoMes(double horasTrabalhadas){
     	double t = horasTrabalhadas;

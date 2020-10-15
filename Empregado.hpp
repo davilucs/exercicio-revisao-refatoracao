@@ -8,21 +8,19 @@ const horasMaxDia = 8;
 class Empregado {
 	
   public:
-    double salarioHora;  
-    double quotaMensalVendas;  
-
-    double pagamentoMes(double horasTrabalhadas) {
- 
-    double t = horasTrabalhadas;
-	  
+    std::string _nome;
+    double _salarioHora;  
+    double _quotaMensalVendas;
+	
+    double pagamentoMes(double horasTrabalhadas){
+    	double t = horasTrabalhadas;
 	  //Cálculo de hora extra (+50% se horasTrabalhadas > 8)
       if (horasTrabalhadas > horasMaxDia) {
         double x = horasTrabalhadas - horasMaxDia;
         t += x / multHorasExtras;
       }
-	  return t * salarioHora;
+	  return t * _salarioHora;
     }
-	
 };
 
 #endif
